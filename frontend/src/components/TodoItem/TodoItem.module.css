@@ -1,0 +1,33 @@
+.todoItem {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.todoItem:hover {
+  background-color: #f5f5f5;
+}
+
+.todoItemCompleted {
+  opacity: 0.5;
+}
+
+.textCompleted {
+  text-decoration: line-through;
+}
+
+.chip {
+  margin-right: 16px;
+}
+
+.checkboxHidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.actionButton {
+  margin-right: 8px !important;
+  white-space: nowrap;
+}

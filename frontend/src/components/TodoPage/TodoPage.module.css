@@ -1,0 +1,17 @@
+.headerRow {
+  align-items: center;
+  justify-content: center;
+}
+
+.createButton {
+  margin-left: 16px !important;
+}
+
+.content {
+  padding: 16px;
+}
+
+.actionsRow {
+  gap: 8px;
+  margin-bottom: 8px;
+}
